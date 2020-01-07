@@ -1,4 +1,4 @@
-package com.carros.api;
+package com.carros.controller;
 
 import java.net.URI;
 import java.util.List;
