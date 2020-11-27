@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class IndexController {
 
-	@GetMapping()
-	public String get() {
-		return "API dos Carros";
-	}
+    @GetMapping()
+    public String get() {
+        return "API dos Carros";
+    }
 
-	@GetMapping("/userinfo")
-	public UserDetails userInfo(@AuthenticationPrincipal UserDetails user) {
-		return user;
-	}
+    @GetMapping("/userInfo")
+    public UserDetails userInfo(@AuthenticationPrincipal UserDetails user) {
+        return user;
+    }
 }
