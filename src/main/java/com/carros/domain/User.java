@@ -38,7 +38,7 @@ public class User implements UserDetails {
 
     public static void main(String[] args) {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        System.out.println(encoder.encode("adminsenha"));
+        System.out.println(encoder.encode("usersenha"));
     }
 
     @Override
